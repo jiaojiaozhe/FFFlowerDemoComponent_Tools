@@ -39,6 +39,5 @@ TODO: flower项目的基础工具组件，通常也是几乎所有其他组件�
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-    s.dependency 'FMDB', '~> 2.7.2'
     s.dependency 'MBProgressHUD', '~> 1.1.0'
 end

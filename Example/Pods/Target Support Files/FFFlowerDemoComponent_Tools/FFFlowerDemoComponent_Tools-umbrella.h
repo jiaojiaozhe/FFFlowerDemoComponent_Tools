@@ -12,7 +12,6 @@
 
 #import "NSArray+Log.h"
 #import "UIColor+Hex.h"
-#import "DBManager.h"
 #import "FFHelper.h"
 #import "HUDTools.h"
 

@@ -20,9 +20,6 @@
   },
   "source_files": "FFFlowerDemoComponent_Tools/Classes/**/*",
   "dependencies": {
-    "FMDB": [
-      "~> 2.7.2"
-    ],
     "MBProgressHUD": [
       "~> 1.1.0"
     ]

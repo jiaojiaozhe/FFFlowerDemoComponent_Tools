@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06D436D0064D2A7084939FA9 /* FFFlowerDemoComponent_Tools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFFlowerDemoComponent_Tools.podspec; path = ../FFFlowerDemoComponent_Tools.podspec; sourceTree = "<group>"; };
+		06D436D0064D2A7084939FA9 /* FFFlowerDemoComponent_Tools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFFlowerDemoComponent_Tools.podspec; path = ../FFFlowerDemoComponent_Tools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0B0E4A8C8309130EEDFA99D6 /* Pods-FFFlowerDemoComponent_Tools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFFlowerDemoComponent_Tools_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFFlowerDemoComponent_Tools_Tests/Pods-FFFlowerDemoComponent_Tools_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		143F67F580D7E69B48445191 /* Pods-FFFlowerDemoComponent_Tools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFFlowerDemoComponent_Tools_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFFlowerDemoComponent_Tools_Example/Pods-FFFlowerDemoComponent_Tools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1F770EE10789171776409814 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -392,13 +392,11 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FFFlowerDemoComponent_Tools_Example/Pods-FFFlowerDemoComponent_Tools_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_Tools/FFFlowerDemoComponent_Tools.framework",
-				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFFlowerDemoComponent_Tools.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
