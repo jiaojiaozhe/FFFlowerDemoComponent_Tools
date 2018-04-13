@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06D436D0064D2A7084939FA9 /* FFFlowerDemoComponent_Tools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FFFlowerDemoComponent_Tools.podspec; path = ../FFFlowerDemoComponent_Tools.podspec; sourceTree = "<group>"; };
+		06D436D0064D2A7084939FA9 /* FFFlowerDemoComponent_Tools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFFlowerDemoComponent_Tools.podspec; path = ../FFFlowerDemoComponent_Tools.podspec; sourceTree = "<group>"; };
 		0B0E4A8C8309130EEDFA99D6 /* Pods-FFFlowerDemoComponent_Tools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFFlowerDemoComponent_Tools_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFFlowerDemoComponent_Tools_Tests/Pods-FFFlowerDemoComponent_Tools_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		143F67F580D7E69B48445191 /* Pods-FFFlowerDemoComponent_Tools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFFlowerDemoComponent_Tools_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFFlowerDemoComponent_Tools_Example/Pods-FFFlowerDemoComponent_Tools_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1F770EE10789171776409814 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1F770EE10789171776409814 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		20C17259C5EC88CD85DA85C8 /* Pods_FFFlowerDemoComponent_Tools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFFlowerDemoComponent_Tools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* FFFlowerDemoComponent_Tools_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFFlowerDemoComponent_Tools_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,7 +65,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		947F5E981DC81E09E62AA124 /* Pods-FFFlowerDemoComponent_Tools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFFlowerDemoComponent_Tools_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFFlowerDemoComponent_Tools_Tests/Pods-FFFlowerDemoComponent_Tools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		97BCB08EF2F4722507C02A2E /* Pods-FFFlowerDemoComponent_Tools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFFlowerDemoComponent_Tools_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFFlowerDemoComponent_Tools_Example/Pods-FFFlowerDemoComponent_Tools_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D7D11212BA35CD42841527CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D7D11212BA35CD42841527CD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DD0FF6DCA57C63F419FFCB55 /* Pods_FFFlowerDemoComponent_Tools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFFlowerDemoComponent_Tools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = jiaojiaozhe;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 3AGWUAQ7VV;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -389,10 +392,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FFFlowerDemoComponent_Tools_Example/Pods-FFFlowerDemoComponent_Tools_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FFFlowerDemoComponent_Tools/FFFlowerDemoComponent_Tools.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFFlowerDemoComponent_Tools.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -536,6 +543,7 @@
 			baseConfigurationReference = 143F67F580D7E69B48445191 /* Pods-FFFlowerDemoComponent_Tools_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3AGWUAQ7VV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FFFlowerDemoComponent_Tools/FFFlowerDemoComponent_Tools-Prefix.pch";
 				INFOPLIST_FILE = "FFFlowerDemoComponent_Tools/FFFlowerDemoComponent_Tools-Info.plist";
@@ -551,6 +559,7 @@
 			baseConfigurationReference = 97BCB08EF2F4722507C02A2E /* Pods-FFFlowerDemoComponent_Tools_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3AGWUAQ7VV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FFFlowerDemoComponent_Tools/FFFlowerDemoComponent_Tools-Prefix.pch";
 				INFOPLIST_FILE = "FFFlowerDemoComponent_Tools/FFFlowerDemoComponent_Tools-Info.plist";

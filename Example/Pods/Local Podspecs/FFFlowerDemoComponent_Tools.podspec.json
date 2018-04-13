@@ -1,0 +1,30 @@
+{
+  "name": "FFFlowerDemoComponent_Tools",
+  "version": "1",
+  "summary": "flower项目的基础工具组件，通常也是几乎所有其他组件会依赖",
+  "description": "TODO: flower项目的基础工具组件，通常也是几乎所有其他组件会依赖",
+  "homepage": "https://github.com/jiaojiaozhe/FFFlowerDemoComponent_Tools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jiaojiaozhe": "lanbiao@fengnian.cn"
+  },
+  "source": {
+    "git": "https://github.com/jiaojiaozhe/FFFlowerDemoComponent_Tools.git",
+    "tag": "1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FFFlowerDemoComponent_Tools/Classes/**/*",
+  "dependencies": {
+    "FMDB": [
+      "~> 2.7.2"
+    ],
+    "MBProgressHUD": [
+      "~> 1.1.0"
+    ]
+  }
+}
