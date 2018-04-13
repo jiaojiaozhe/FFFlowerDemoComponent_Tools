@@ -6,6 +6,6 @@ target 'FFFlowerDemoComponent_Tools_Example' do
   target 'FFFlowerDemoComponent_Tools_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
+#    pod 'FBSnapshotTestCase'
   end
 end
