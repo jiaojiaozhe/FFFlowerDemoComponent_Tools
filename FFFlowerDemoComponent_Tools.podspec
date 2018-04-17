@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFFlowerDemoComponent_Tools'
-  s.version          = '1'
+  s.version          = '1.0.1'
   s.summary          = 'flower项目的基础工具组件，通常也是几乎所有其他组件会依赖'
 
 # This description is used to generate tags and improve search results.
