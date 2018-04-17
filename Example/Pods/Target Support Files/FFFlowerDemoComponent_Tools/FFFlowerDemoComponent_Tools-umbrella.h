@@ -13,7 +13,6 @@
 #import "NSArray+Log.h"
 #import "UIColor+Hex.h"
 #import "FFHelper.h"
-#import "HUDTools.h"
 
 FOUNDATION_EXPORT double FFFlowerDemoComponent_ToolsVersionNumber;
 FOUNDATION_EXPORT const unsigned char FFFlowerDemoComponent_ToolsVersionString[];
